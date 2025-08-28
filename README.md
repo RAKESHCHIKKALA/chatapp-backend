@@ -19,32 +19,27 @@ It provides REST APIs and WebSocket support for real-time messaging.
 - JWT for authentication
 - Mongoose for MongoDB ORM
 
-## How to Run
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/RAKESHCHIKKALA/chatapp-backend.git
-   cd chatapp-backend
 Install dependencies:
 
 bash
-Copy code
+
 npm install
 Setup environment variables:
 
 text
-Copy code
-PORT=5000
+
+PORT=5409
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 Start the server:
 
 bash
-Copy code
+
 npm run start
 or for development with hot reload:
 
 bash
-Copy code
+
 npm run dev
-Server will run on http://localhost:5000
+Server will run on http://localhost:5409
